@@ -1,10 +1,12 @@
 ﻿; vim-like keybindings for Windows
 ; for cursor movements
 
+; Override CapsLock
 CapsLock::{
     return
 }
-; Override CapsLock
+; To use CapsLock normally, press Shift/Ctrl/Alt + CapsLock.
+;===============================
 
 ; Send Alt and =
 ; This is for Word and OneNote to insert equation
@@ -38,7 +40,15 @@ CapsLock & h::{
 CapsLock & l::{
     Send "{End}"
 }
+;==============================
 
+; T, Y = PageUp, PageDown
+CapsLock & t::{
+    Send "{PgUp}"
+}
+CapsLock & y::{
+    Send "{PgDn}"
+}
 ;==============================
 
 ; a, d = LeftWord, RightWord
