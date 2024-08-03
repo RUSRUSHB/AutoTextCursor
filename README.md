@@ -5,9 +5,9 @@
 
 双击`.exe`启动映射。在[configuration/](configuration/)中有源代码和映射表格，比如[default_README.md](configuration/default/default_README.md)。
 
-[default_atc.exe](default_atc.exe)是更符合直觉的、功能更丰富的映射。
+[default_atc.exe](https://github.com/RUSRUSHB/AutoTextCursor/raw/main/default_atc.exe)是更符合直觉的、功能更丰富的映射。
 
-[vimLike_atc.exe](vimLike_atc.exe)是与Vim更相似的映射。
+[vimLike_atc.exe](https://github.com/RUSRUSHB/AutoTextCursor/raw/main/vimLike_atc.exe)是与Vim更相似的映射。
 
 此方案通过按下`Capslock`生效。若需要正常使用`Capslock`键，则可按`Shift+Capslock`或`Ctrl+Capslock`或`Alt+Capslock`。
 
