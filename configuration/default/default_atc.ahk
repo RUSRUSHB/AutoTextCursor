@@ -43,10 +43,10 @@ CapsLock & l::{
 ;==============================
 
 ; T, Y = PageUp, PageDown
-CapsLock & t::{
+CapsLock & y::{
     Send "{PgUp}"
 }
-CapsLock & y::{
+CapsLock & g::{
     Send "{PgDn}"
 }
 ;==============================
@@ -56,6 +56,13 @@ CapsLock & a::{
     Send "^{Left}"
 }
 CapsLock & d::{
+    Send "^{Right}"
+}
+; i, o = LeftWord, RightWord
+CapsLock & i::{
+    Send "^{Left}"
+}
+CapsLock & o::{
     Send "^{Right}"
 }
 
@@ -68,6 +75,7 @@ CapsLock & w::{
 CapsLock & s::{
     Send "{Delete}"
 }
+
 ;=============================
 
 ; LCtrl, LAlt = Ctrl+shift+Left, Ctrl+shift+Right
@@ -76,13 +84,6 @@ CapsLock & LCtrl::{
 }
 CapsLock & LAlt::{
     Send "^+{Right}"
-}
-
-;=============================
-
-; Space = Alt + F4
-CapsLock & Space::{
-    Send "!{F4}"
 }
 
 ;=============================
@@ -103,4 +104,11 @@ CapsLock & z::{
 }
 CapsLock & c::{
     Click "right"
+}
+
+;=============================
+
+; Space = Alt + F4
+CapsLock & Space::{
+    Send "!{F4}"
 }

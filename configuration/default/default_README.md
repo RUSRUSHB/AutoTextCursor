@@ -10,8 +10,8 @@
 | CapsLock + N  | 下箭头               |**N**ext line|
 | CapsLock + H  | Home 键              ||
 | CapsLock + L  | End 键               ||
-| CapsLock + T  | Page Up 键           ||
-| CapsLock + Y  | Page Down 键         ||
+| CapsLock + Y  | Page Up 键           ||
+| CapsLock + G  | Page Down 键         ||
 | CapsLock + A  | 光标左移一个单词     |Ctrl + Left Arrow|
 | CapsLock + D  | 光标右移一个单词     |Ctrl + Right Arrow|
 | CapsLock + W  | 退格键               ||
