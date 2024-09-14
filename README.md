@@ -1,9 +1,9 @@
 # AutoTextCursor
- Intuitive vim-like control of text cursor. 符合直觉的类Vim文本光标控制。
+Intuitive vim-like control of text cursor. 符合直觉的类Vim文本光标控制。
 
 ## 中文介绍
 
-双击`.exe`启动映射。在[configuration/](configuration/)中有源代码和映射表格，比如[default_README.md](configuration/default/default_README.md)。
+双击一个`.exe`启动映射。在[configuration/](configuration/)中有源代码和映射表格，比如[default_README.md](configuration/default/default_README.md)。
 
 [default_atc.exe](https://github.com/RUSRUSHB/AutoTextCursor/raw/main/default_atc.exe)是更符合直觉的、功能更丰富的映射。
 
@@ -13,7 +13,7 @@
 
 ## English Introduction
 
-Double click `.exe` to start mapping. Source code and mapping tables are in [configuration/](configuration/).
+Double click an `.exe` to start mapping. Source code and mapping tables are in [configuration/](configuration/).
 
 [default_atc.exe](default_atc.exe) is more intuitive and feature-rich mapping.
 
